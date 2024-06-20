@@ -44,12 +44,9 @@
 
 // ---------------------------------- \\
 
-function giocoDadi(){
-
-    // Funzione per richiedere il numero dei tiri dei dadi 
+     // Prompt -> N tiri dei dadi da parte dei giocatori
     let tiri_n_Volte = Number(prompt('Quanti tiri per ciascun giocatore?'), 8);
 
-}
 // Funzione per richiedere il tiro dei dadi
 function tiroDadi(){
     return Math.floor(Math.random() * 6) + 1;
@@ -92,4 +89,4 @@ else{
 }
 
 // richiamo funzione
-giocoDadi();
+tiroDadi();
